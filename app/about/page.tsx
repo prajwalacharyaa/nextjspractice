@@ -1,7 +1,7 @@
-import React from "react";
-
-const page = () => {
-  return <div>About Page</div>;
+export const metadata = {
+  title: "About My next Js journey",
 };
 
-export default page;
+export default function About() {
+  return <h1>About me</h1>;
+}
