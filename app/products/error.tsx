@@ -1,5 +1,6 @@
 "use client";
 
+//for pull demo
 export default function ErrorBoundary({
   error,
   reset,
