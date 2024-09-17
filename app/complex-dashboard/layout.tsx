@@ -11,7 +11,7 @@ export default function DashboardLayout({
   revenue: React.ReactNode;
   notifications: React.ReactNode;
 }) {
-  const isLoggedIn = false;
+  const isLoggedIn = true;
   return isLoggedIn ? (
     <div>
       <div>{children}</div>

@@ -1,11 +1,3 @@
-const Mnago=()={
-return(
-  <div>
-  This could be a mango.
-  </div>
-)
-}
-
 const Card = ({ children }: { children: React.ReactNode }) => {
   const cardStyle = {
     padding: "100px",

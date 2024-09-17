@@ -38,6 +38,11 @@ export default function RootLayout({
             <div className="text-2xl font-bold">My App</div>
             <ul className="flex space-x-6">
               <li>
+                <Link href="/photo-feed" className="hover:underline">
+                  Photo Feed Model
+                </Link>
+              </li>
+              <li>
                 <Link href="/complex-dashboard" className="hover:underline">
                   Complex Dashboard
                 </Link>
